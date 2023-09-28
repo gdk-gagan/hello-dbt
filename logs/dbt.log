@@ -1,0 +1,228 @@
+[0m12:25:46.696238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f4c610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111687e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111690810>]}
+
+
+============================== 12:25:46.700768 | 323d15ef-fe95-4ca2-8762-2da381e3c860 ==============================
+[0m12:25:46.700768 [info ] [MainThread]: Running with dbt=1.6.3
+[0m12:25:46.701339 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/gdk/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:26:37.005527 [debug] [MainThread]: Starter project path: /Users/gdk/opt/anaconda3/envs/week4/lib/python3.11/site-packages/dbt/include/starter_project
+[0m12:26:37.016414 [info ] [MainThread]: 
+Your new dbt project "ny_taxi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:26:37.016993 [info ] [MainThread]: Setting up your profile.
+[0m12:27:56.086062 [info ] [MainThread]: Profile ny_taxi written to /Users/gdk/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:27:56.089202 [debug] [MainThread]: Command `dbt init` succeeded at 12:27:56.088521 after 129.43 seconds
+[0m12:27:56.090196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111687410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11166d790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13509d350>]}
+[0m12:27:56.090996 [debug] [MainThread]: Flushing usage events
+[0m12:28:14.398371 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f4545d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f4600d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f460710>]}
+
+
+============================== 12:28:14.402843 | 244987bf-81cf-456b-b0f2-16d199d78555 ==============================
+[0m12:28:14.402843 [info ] [MainThread]: Running with dbt=1.6.3
+[0m12:28:14.403477 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/gdk/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:28:14.404146 [info ] [MainThread]: dbt version: 1.6.3
+[0m12:28:14.404435 [info ] [MainThread]: python version: 3.11.5
+[0m12:28:14.404796 [info ] [MainThread]: python path: /Users/gdk/opt/anaconda3/envs/week4/bin/python
+[0m12:28:14.405095 [info ] [MainThread]: os info: macOS-10.16-x86_64-i386-64bit
+[0m12:28:15.360943 [info ] [MainThread]: Using profiles dir at /Users/gdk/.dbt
+[0m12:28:15.361314 [info ] [MainThread]: Using profiles.yml file at /Users/gdk/.dbt/profiles.yml
+[0m12:28:15.361616 [info ] [MainThread]: Using dbt_project.yml file at /Users/gdk/Projects/hello-dbt/dbt_project.yml
+[0m12:28:15.361997 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:28:15.362723 [debug] [MainThread]: Command `dbt debug` failed at 12:28:15.362435 after 1.00 seconds
+[0m12:28:15.363123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f46c950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x137869a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f460ad0>]}
+[0m12:28:15.363430 [debug] [MainThread]: Flushing usage events
+[0m12:36:24.833042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea90610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea90450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea93fd0>]}
+
+
+============================== 12:36:24.837776 | 62e9e8df-0ebc-4cdb-8ba6-6cb4d10dab3b ==============================
+[0m12:36:24.837776 [info ] [MainThread]: Running with dbt=1.6.3
+[0m12:36:24.838419 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/gdk/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:36:24.838920 [info ] [MainThread]: dbt version: 1.6.3
+[0m12:36:24.839242 [info ] [MainThread]: python version: 3.11.5
+[0m12:36:24.839532 [info ] [MainThread]: python path: /Users/gdk/opt/anaconda3/envs/week4/bin/python
+[0m12:36:24.839804 [info ] [MainThread]: os info: macOS-10.16-x86_64-i386-64bit
+[0m12:36:25.805002 [info ] [MainThread]: Using profiles dir at /Users/gdk/.dbt
+[0m12:36:25.805434 [info ] [MainThread]: Using profiles.yml file at /Users/gdk/.dbt/profiles.yml
+[0m12:36:25.805807 [info ] [MainThread]: Using dbt_project.yml file at /Users/gdk/Projects/hello-dbt/dbt_project.yml
+[0m12:36:25.806237 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:36:25.806898 [debug] [MainThread]: Command `dbt debug` failed at 12:36:25.806639 after 1.01 seconds
+[0m12:36:25.807248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eaa8dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea814d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ef5d90>]}
+[0m12:36:25.807648 [debug] [MainThread]: Flushing usage events
+[0m12:36:54.429264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f734590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f737fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f737f90>]}
+
+
+============================== 12:36:54.434091 | f75ed2cb-0649-4f31-866b-2c30e2cc4926 ==============================
+[0m12:36:54.434091 [info ] [MainThread]: Running with dbt=1.6.3
+[0m12:36:54.435032 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/gdk/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --config-dir', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:36:54.435946 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/gdk/.dbt
+[0m12:36:54.437126 [debug] [MainThread]: Command `dbt debug` succeeded at 12:36:54.436570 after 0.04 seconds
+[0m12:36:54.437473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f725690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d2b72d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a322190>]}
+[0m12:36:54.437825 [debug] [MainThread]: Flushing usage events
+[0m12:38:50.350950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10efd8610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10efd8590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10efdbfd0>]}
+
+
+============================== 12:38:50.355473 | 2bacef09-b231-45b7-a588-77b7ba882f7c ==============================
+[0m12:38:50.355473 [info ] [MainThread]: Running with dbt=1.6.3
+[0m12:38:50.356096 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/gdk/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:38:50.356757 [info ] [MainThread]: dbt version: 1.6.3
+[0m12:38:50.357096 [info ] [MainThread]: python version: 3.11.5
+[0m12:38:50.357408 [info ] [MainThread]: python path: /Users/gdk/opt/anaconda3/envs/week4/bin/python
+[0m12:38:50.357708 [info ] [MainThread]: os info: macOS-10.16-x86_64-i386-64bit
+[0m12:38:51.295017 [info ] [MainThread]: Using profiles dir at /Users/gdk/.dbt
+[0m12:38:51.295628 [info ] [MainThread]: Using profiles.yml file at /Users/gdk/.dbt/profiles.yml
+[0m12:38:51.296104 [info ] [MainThread]: Using dbt_project.yml file at /Users/gdk/Projects/hello-dbt/dbt_project.yml
+[0m12:38:51.296791 [info ] [MainThread]: adapter type: bigquery
+[0m12:38:51.297211 [info ] [MainThread]: adapter version: 1.6.5
+[0m12:38:51.297515 [info ] [MainThread]: Configuration:
+[0m12:38:51.297820 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:38:51.298121 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:38:51.298407 [info ] [MainThread]: Required dependencies:
+[0m12:38:51.298740 [debug] [MainThread]: Executing "git --help"
+[0m12:38:51.345178 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:38:51.346264 [debug] [MainThread]: STDERR: "b''"
+[0m12:38:51.346819 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:38:51.347241 [info ] [MainThread]: Connection:
+[0m12:38:51.347696 [info ] [MainThread]:   method: service-account
+[0m12:38:51.348050 [info ] [MainThread]:   database: dtc-de-2023-398823
+[0m12:38:51.348318 [info ] [MainThread]:   execution_project: dtc-de-2023-398823
+[0m12:38:51.348602 [info ] [MainThread]:   schema: ny_taxi
+[0m12:38:51.348883 [info ] [MainThread]:   location: US
+[0m12:38:51.349227 [info ] [MainThread]:   priority: interactive
+[0m12:38:51.349576 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:38:51.349826 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:38:51.350084 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:38:51.350311 [info ] [MainThread]:   job_retries: 1
+[0m12:38:51.350542 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:38:51.350755 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:38:51.351027 [info ] [MainThread]:   keyfile: /Users/gdk/google-cloud-sdk/dtc-de-2023.json
+[0m12:38:51.351248 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:38:51.351488 [info ] [MainThread]:   refresh_token: None
+[0m12:38:51.351752 [info ] [MainThread]:   client_id: None
+[0m12:38:51.351960 [info ] [MainThread]:   token_uri: None
+[0m12:38:51.352164 [info ] [MainThread]:   dataproc_region: None
+[0m12:38:51.352354 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:38:51.352552 [info ] [MainThread]:   gcs_bucket: None
+[0m12:38:51.352808 [info ] [MainThread]:   dataproc_batch: None
+[0m12:38:51.353229 [info ] [MainThread]: Registered adapter: bigquery=1.6.5
+[0m12:38:51.587856 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:38:51.589169 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:38:51.592560 [debug] [MainThread]: On debug: select 1 as id
+[0m12:38:52.733235 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dtc-de-2023-398823&j=bq:US:f67073be-0704-499a-96a8-40cde09e71d0&page=queryresults
+[0m12:38:53.351983 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:38:53.352951 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:38:53.353602 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/gdk/Projects/hello-dbt/dbt_project.yml> not found
+
+[0m12:38:53.354852 [debug] [MainThread]: Command `dbt debug` failed at 12:38:53.354619 after 3.04 seconds
+[0m12:38:53.355636 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:38:53.356349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eff0910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10efe4410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1374a3850>]}
+[0m12:38:53.357191 [debug] [MainThread]: Flushing usage events
+[0m12:39:16.382817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee5c810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee5f7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee5ff50>]}
+
+
+============================== 12:39:16.387201 | 21aafa4d-6eaa-4201-af68-205c26da0e77 ==============================
+[0m12:39:16.387201 [info ] [MainThread]: Running with dbt=1.6.3
+[0m12:39:16.387788 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/gdk/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m12:39:16.388335 [info ] [MainThread]: dbt version: 1.6.3
+[0m12:39:16.388728 [info ] [MainThread]: python version: 3.11.5
+[0m12:39:16.389123 [info ] [MainThread]: python path: /Users/gdk/opt/anaconda3/envs/week4/bin/python
+[0m12:39:16.389397 [info ] [MainThread]: os info: macOS-10.16-x86_64-i386-64bit
+[0m12:39:17.283988 [info ] [MainThread]: Using profiles dir at /Users/gdk/.dbt
+[0m12:39:17.284426 [info ] [MainThread]: Using profiles.yml file at /Users/gdk/.dbt/profiles.yml
+[0m12:39:17.284740 [info ] [MainThread]: Using dbt_project.yml file at /Users/gdk/Projects/hello-dbt/dbt_project.yml
+[0m12:39:17.285264 [info ] [MainThread]: adapter type: bigquery
+[0m12:39:17.285611 [info ] [MainThread]: adapter version: 1.6.5
+[0m12:39:17.285932 [info ] [MainThread]: Configuration:
+[0m12:39:17.286196 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:39:17.286455 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:39:17.286744 [info ] [MainThread]: Required dependencies:
+[0m12:39:17.287016 [debug] [MainThread]: Executing "git --help"
+[0m12:39:17.327902 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:39:17.329058 [debug] [MainThread]: STDERR: "b''"
+[0m12:39:17.329462 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:39:17.329815 [info ] [MainThread]: Connection:
+[0m12:39:17.330202 [info ] [MainThread]:   method: service-account
+[0m12:39:17.330502 [info ] [MainThread]:   database: dtc-de-2023-398823
+[0m12:39:17.330752 [info ] [MainThread]:   execution_project: dtc-de-2023-398823
+[0m12:39:17.330959 [info ] [MainThread]:   schema: ny_taxi
+[0m12:39:17.331254 [info ] [MainThread]:   location: US
+[0m12:39:17.331542 [info ] [MainThread]:   priority: interactive
+[0m12:39:17.331857 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m12:39:17.332131 [info ] [MainThread]:   impersonate_service_account: None
+[0m12:39:17.332400 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m12:39:17.332729 [info ] [MainThread]:   job_retries: 1
+[0m12:39:17.333002 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m12:39:17.333267 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m12:39:17.333506 [info ] [MainThread]:   keyfile: /Users/gdk/google-cloud-sdk/dtc-de-2023.json
+[0m12:39:17.333781 [info ] [MainThread]:   timeout_seconds: 300
+[0m12:39:17.334021 [info ] [MainThread]:   refresh_token: None
+[0m12:39:17.334241 [info ] [MainThread]:   client_id: None
+[0m12:39:17.334435 [info ] [MainThread]:   token_uri: None
+[0m12:39:17.334683 [info ] [MainThread]:   dataproc_region: None
+[0m12:39:17.334960 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m12:39:17.335193 [info ] [MainThread]:   gcs_bucket: None
+[0m12:39:17.335443 [info ] [MainThread]:   dataproc_batch: None
+[0m12:39:17.335942 [info ] [MainThread]: Registered adapter: bigquery=1.6.5
+[0m12:39:17.346839 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m12:39:17.348971 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:39:17.354466 [debug] [MainThread]: On debug: select 1 as id
+[0m12:39:18.242348 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dtc-de-2023-398823&j=bq:US:fe32d736-75ce-4dfc-9a51-4f1cb0649719&page=queryresults
+[0m12:39:18.766445 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:39:18.767420 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:39:18.768067 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/gdk/Projects/hello-dbt/dbt_project.yml> not found
+
+[0m12:39:18.769366 [debug] [MainThread]: Command `dbt debug` failed at 12:39:18.769112 after 2.42 seconds
+[0m12:39:18.770155 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:39:18.770865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee68510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee4d5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x137501650>]}
+[0m12:39:18.771692 [debug] [MainThread]: Flushing usage events
+[0m21:47:54.849450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112c31a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1124f8390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112c39950>]}
+
+
+============================== 21:47:54.854247 | 9f29ae9f-2dfb-4494-b760-76f2f50234fd ==============================
+[0m21:47:54.854247 [info ] [MainThread]: Running with dbt=1.6.3
+[0m21:47:54.854888 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/gdk/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:47:54.855456 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/gdk/Projects/hello-dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:47:54.856367 [debug] [MainThread]: Command `dbt run` failed at 21:47:54.856025 after 0.05 seconds
+[0m21:47:54.856804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112c2b450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112c30b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d89c550>]}
+[0m21:47:54.857127 [debug] [MainThread]: Flushing usage events
+[0m15:06:38.776527 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113650dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11363b990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113658790>]}
+
+
+============================== 15:06:38.781919 | f4d98db4-5ae0-4dd1-9a66-0ce7d4680e0a ==============================
+[0m15:06:38.781919 [info ] [MainThread]: Running with dbt=1.6.3
+[0m15:06:38.782633 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/gdk/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt deps', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:06:38.783636 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/gdk/Projects/hello-dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:06:38.784700 [debug] [MainThread]: Command `dbt deps` failed at 15:06:38.784197 after 0.05 seconds
+[0m15:06:38.785116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113645d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113659010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e23a3d0>]}
+[0m15:06:38.785563 [debug] [MainThread]: Flushing usage events

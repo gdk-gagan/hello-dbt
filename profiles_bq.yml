@@ -1,0 +1,32 @@
+# Copy this file to ~/.dbt/profiles.yml
+
+ny_taxi:
+  target: dev 
+  outputs:
+    dev:
+      type: bigquery
+      dataset: ny_taxi
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /Users/gdk/google-cloud-sdk/dtc-de-2023.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: dtc-de-2023-398823
+      threads: 4
+      keepalives_idle:  0 #default 0, indicating the system default
+    prod:
+      type: bigquery
+      dataset: prod   # name of your production dataset (should already exist in biquery)
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /Users/gdk/google-cloud-sdk/dtc-de-2023.json #another service account
+      location: US
+      method: service-account
+      priority: interactive
+      project: dtc-de-2023-398823
+      threads: 4
+      keepalives_idle:  0 #default 0, indicating the system default
+
+
+  

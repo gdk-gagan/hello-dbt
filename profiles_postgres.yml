@@ -1,0 +1,25 @@
+# Copy this file to ~/.dbt/profiles.yml
+
+ny_taxi:
+  target: dev # default output for target
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: my_user
+      password: my_password
+      port: 5432
+      dbname: pg_db
+      schema: ny_taxi
+      threads: 4
+      keepalives_idle:  0 #default 0, indicating the system default
+    prod:
+      type: postgres
+      host: localhost
+      user: prod_user
+      password: prod_password
+      port: 5432
+      dbname: production
+      schema: master
+      threads: 4
+      keepalives_idle:  0 #default 0, indicating the system default
